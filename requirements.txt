@@ -1,0 +1,7 @@
+These are the dependencies that you will need to run the webscraper:
+requests
+beautifulsoup4
+pandas
+matplotlib
+plotly
+playwright
