@@ -297,30 +297,3 @@ class BlocketBostadScraper:
 
         logger.info("Scraping process completed!")
         return results
-
-
-# def main():
-#     """Main function to run the scraper."""
-#     try:
-#         scraper = BlocketBostadScraper(
-#             base_url=config.blocketBostadURL2  # Only using URL2 now
-#         )
-#
-#         results = scraper.run_full_scrape()
-#
-#         if 'error' not in results:
-#             print(f"\n✅ Scraping Summary:")
-#             print(f"   Successfully scraped: {results['successful']} pages")
-#             print(f"   Failed: {results['failed']} pages")
-#             if results['failed_pages']:
-#                 print(f"   Failed page numbers: {results['failed_pages']}")
-#         else:
-#             print(f"❌ Scraping failed: {results['error']}")
-#
-#     except Exception as e:
-#         logger.error(f"Unexpected error in main: {e}")
-#         print(f"❌ Scraping failed with error: {e}")
-#
-#
-# if __name__ == "__main__":
-#     main()
