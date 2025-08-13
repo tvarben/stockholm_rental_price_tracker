@@ -18,8 +18,8 @@ housing(id INTEGER PRIMARY KEY,
         size_kvm INTEGER,
         price INTEGER,
         available TEXT,
-        until TEXT
-        link TEXT,
+        until TEXT,
+        link TEXT
         )"""
 
 # TESTING SQL QUERIES
