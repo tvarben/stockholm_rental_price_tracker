@@ -5,7 +5,6 @@ from pathlib import Path
 from typing import List, Optional
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError, Browser, Page
-import config
 
 # Configure logging
 logging.basicConfig(

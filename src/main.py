@@ -4,8 +4,8 @@ Main entry point for Blocket Bostad scraper.
 """
 
 import logging
-from scraper import BlocketBostadScraper
-import config
+from src.scraper import BlocketBostadScraper
+import src.config
 import sys
 import os
 
@@ -21,7 +21,7 @@ def main():
     """Main function to run the scraper."""
     try:
         scraper = BlocketBostadScraper(
-            base_url=config.blocketBostadURL2
+            base_url=src.config.blocketBostadURL2
         )
 
         results = scraper.run_full_scrape()

@@ -19,6 +19,7 @@ housing(id INTEGER PRIMARY KEY,
         price INTEGER,
         available TEXT,
         until TEXT
+        link TEXT,
         )"""
 
 # TESTING SQL QUERIES
