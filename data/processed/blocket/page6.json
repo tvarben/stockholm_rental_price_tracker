@@ -1,0 +1,602 @@
+[
+  {
+    "location": "Bromma",
+    "address": "Söderberga allé",
+    "property_type": "Lägenhet",
+    "size_kvm": 18,
+    "price": 6357,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1172166"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Sjöviksvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 46,
+    "price": 15362,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1172159"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Fredriksdalsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 83,
+    "price": 31785,
+    "available": "2025-11-29",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171825"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Nina Einhorns Gata",
+    "property_type": "Lägenhet",
+    "size_kvm": 34,
+    "price": 18011,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1172134"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Inedalsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 18,
+    "price": 13508,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1172112"
+  },
+  {
+    "location": "Älvsjö",
+    "address": "Kastanjevägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 35,
+    "price": 9005,
+    "available": "2025-08-10",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1172104"
+  },
+  {
+    "location": "Hägersten",
+    "address": "Hövdingagatan",
+    "property_type": "Loftgångshus",
+    "size_kvm": 38,
+    "price": 15892,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1172098"
+  },
+  {
+    "location": "Johanneshov",
+    "address": "Båstadsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 57,
+    "price": 10595,
+    "available": "2025-09-01",
+    "until": "2027-01-05",
+    "url": "https://bostad.blocket.se/sv/home/1172064"
+  },
+  {
+    "location": "Enskededalen",
+    "address": "Glasmålarvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 69,
+    "price": 16422,
+    "available": "2025-08-12",
+    "until": "2026-09-30",
+    "url": "https://bostad.blocket.se/sv/home/1172075"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Nackagatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 73,
+    "price": 23838,
+    "available": "2025-09-04",
+    "until": "2026-01-06",
+    "url": "https://bostad.blocket.se/sv/home/1171608"
+  },
+  {
+    "location": "Spånga",
+    "address": "Nekvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 39,
+    "price": 14833,
+    "available": "2025-09-03",
+    "until": "2025-10-31",
+    "url": "https://bostad.blocket.se/sv/home/1172049"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Fridhemsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 33,
+    "price": 17481,
+    "available": "2025-10-01",
+    "until": "2026-03-31",
+    "url": "https://bostad.blocket.se/sv/home/1172044"
+  },
+  {
+    "location": "Enskede",
+    "address": "Oppundavägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 18,
+    "price": 5827,
+    "available": "2025-09-01",
+    "until": "2025-12-31",
+    "url": "https://bostad.blocket.se/sv/home/1171994"
+  },
+  {
+    "location": "Spånga",
+    "address": "Rissnavägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 35,
+    "price": 9217,
+    "available": "2025-08-10",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171993"
+  },
+  {
+    "location": "Hägersten",
+    "address": "Terrängvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 55,
+    "price": 14833,
+    "available": "2025-11-01",
+    "until": "2026-11-01",
+    "url": "https://bostad.blocket.se/sv/home/1171961"
+  },
+  {
+    "location": "Johanneshov",
+    "address": "Mariestadsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 48,
+    "price": 15892,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171963"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Östgötagatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 46,
+    "price": 19071,
+    "available": "2025-10-01",
+    "until": "2026-03-31",
+    "url": "https://bostad.blocket.se/sv/home/1171945"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Grev Magnigatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 58,
+    "price": 34899,
+    "available": "2025-10-24",
+    "until": "2026-01-24",
+    "url": "https://bostad.blocket.se/sv/home/1171151"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Birger Jarlsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 47,
+    "price": 26487,
+    "available": "2025-10-10",
+    "until": "2026-04-30",
+    "url": "https://bostad.blocket.se/sv/home/1171932"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Hagagränd",
+    "property_type": "Lägenhet",
+    "size_kvm": 12,
+    "price": 7522,
+    "available": "2025-08-10",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171891"
+  },
+  {
+    "location": "Älvsjö",
+    "address": "Örby",
+    "property_type": "Lägenhet",
+    "size_kvm": 35,
+    "price": 7346,
+    "available": "2025-11-01",
+    "until": "2026-10-31",
+    "url": "https://bostad.blocket.se/sv/home/1171821"
+  },
+  {
+    "location": "Älvsjö",
+    "address": "Sandalettgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 55,
+    "price": 16952,
+    "available": "2025-09-16",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171811"
+  },
+  {
+    "location": "Johanneshov",
+    "address": "Lidköpingsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 22,
+    "price": 12714,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171801"
+  },
+  {
+    "location": "Enskede",
+    "address": "Hägervägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 57,
+    "price": 11654,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171798"
+  },
+  {
+    "location": "Älvsjö",
+    "address": "Armborstvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 10,
+    "price": 6357,
+    "available": "2025-08-29",
+    "until": "2025-12-31",
+    "url": "https://bostad.blocket.se/sv/home/1171785"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Wittstocksgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 15,
+    "price": 6357,
+    "available": "2025-10-01",
+    "until": "2026-10-01",
+    "url": "https://bostad.blocket.se/sv/home/1171771"
+  },
+  {
+    "location": "Hägersten",
+    "address": "Stjernströms Väg",
+    "property_type": "Lägenhet",
+    "size_kvm": 55,
+    "price": 15362,
+    "available": "2025-08-10",
+    "until": "2026-08-31",
+    "url": "https://bostad.blocket.se/sv/home/1150569"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Gröndalsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 35,
+    "price": 15362,
+    "available": "2025-09-01",
+    "until": "2026-05-31",
+    "url": "https://bostad.blocket.se/sv/home/1171357"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Gröndalsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 16,
+    "price": 7204,
+    "available": "2025-08-15",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171745"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Slåttervallsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 38,
+    "price": 14303,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171739"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Kommendörsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 16,
+    "price": 14000,
+    "available": "2025-08-18",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1157387"
+  },
+  {
+    "location": "Bandhagen",
+    "address": "Lillhagsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 70,
+    "price": 17481,
+    "available": "2025-10-11",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171462"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Ruddammsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 108,
+    "price": 9535,
+    "available": "2025-08-13",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171581"
+  },
+  {
+    "location": "Bromma",
+    "address": "Bäckbornas väg",
+    "property_type": "Lägenhet",
+    "size_kvm": 12,
+    "price": 5986,
+    "available": "2025-10-01",
+    "until": "2026-01-01",
+    "url": "https://bostad.blocket.se/sv/home/1171564"
+  },
+  {
+    "location": "Hägersten",
+    "address": "Gösta Ekmans väg",
+    "property_type": "Lägenhet",
+    "size_kvm": 11,
+    "price": 7672,
+    "available": "2025-09-01",
+    "until": "2025-12-31",
+    "url": "https://bostad.blocket.se/sv/home/1170100"
+  },
+  {
+    "location": "Bromma",
+    "address": "Brålunden",
+    "property_type": "Lägenhet",
+    "size_kvm": 48,
+    "price": 18011,
+    "available": "2025-08-10",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171681"
+  },
+  {
+    "location": "Enskede",
+    "address": "Tussmötevägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 45,
+    "price": 10065,
+    "available": "2025-08-10",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171694"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Björksundslingan",
+    "property_type": "Lägenhet",
+    "size_kvm": 56,
+    "price": 15892,
+    "available": "2025-08-15",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171659"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Ruddammsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 10,
+    "price": 6145,
+    "available": "2025-09-01",
+    "until": "2025-12-31",
+    "url": "https://bostad.blocket.se/sv/home/1171655"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Wittstocksgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 50,
+    "price": 20433,
+    "available": "2025-09-01",
+    "until": "2026-09-01",
+    "url": "https://bostad.blocket.se/sv/home/1113535"
+  },
+  {
+    "location": "Hägersten",
+    "address": "Doktor Widerströms Gata",
+    "property_type": "Lägenhet",
+    "size_kvm": 63,
+    "price": 20130,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171621"
+  },
+  {
+    "location": "Kista",
+    "address": "Mariehamnsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 49,
+    "price": 10595,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171605"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Kocksgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 47,
+    "price": 16952,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171603"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Drottningholmsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 27,
+    "price": 14833,
+    "available": "2025-11-01",
+    "until": "2026-07-31",
+    "url": "https://bostad.blocket.se/sv/home/1171561"
+  },
+  {
+    "location": "Spånga",
+    "address": "Gribbyvägen",
+    "property_type": "Villa",
+    "size_kvm": 18,
+    "price": 8476,
+    "available": "2025-08-09",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171544"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Thorildsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 41,
+    "price": 16422,
+    "available": "2025-09-01",
+    "until": "2026-08-31",
+    "url": "https://bostad.blocket.se/sv/home/1171549"
+  },
+  {
+    "location": "Skärholmen",
+    "address": "Odd Fellowvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 67,
+    "price": 14833,
+    "available": "2025-09-01",
+    "until": "2026-01-04",
+    "url": "https://bostad.blocket.se/sv/home/1169345"
+  },
+  {
+    "location": "Johanneshov",
+    "address": "Grafikvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 55,
+    "price": 18011,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171533"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Hornsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 56,
+    "price": 22249,
+    "available": "2025-10-06",
+    "until": "2026-04-19",
+    "url": "https://bostad.blocket.se/sv/home/1171513"
+  },
+  {
+    "location": "Kista",
+    "address": "Jyllandsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 26,
+    "price": 9785,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171514"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Ola Hanssonsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 31,
+    "price": 14833,
+    "available": "2025-09-30",
+    "until": "2026-01-31",
+    "url": "https://bostad.blocket.se/sv/home/1171290"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Kungsklippan",
+    "property_type": "Lägenhet",
+    "size_kvm": 26,
+    "price": 14833,
+    "available": "2025-08-09",
+    "until": "2026-02-28",
+    "url": "https://bostad.blocket.se/sv/home/1171509"
+  },
+  {
+    "location": "Skärholmen",
+    "address": "Ekholmsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 27,
+    "price": 9005,
+    "available": "2025-08-10",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171506"
+  },
+  {
+    "location": "Johanneshov",
+    "address": "Halmstadsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 50,
+    "price": 9535,
+    "available": "2025-08-18",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171501"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Karlbergsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 30,
+    "price": 17481,
+    "available": "2025-09-01",
+    "until": "2026-01-31",
+    "url": "https://bostad.blocket.se/sv/home/1170681"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Jungfrugatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 37,
+    "price": 20660,
+    "available": "2025-08-18",
+    "until": "2026-08-17",
+    "url": "https://bostad.blocket.se/sv/home/1171426"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Skeppsmäklargatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 12,
+    "price": 7416,
+    "available": "2025-10-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1171450"
+  },
+  {
+    "location": "Johanneshov",
+    "address": "Karlsborgsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 41,
+    "price": 14833,
+    "available": "2025-09-01",
+    "until": "2025-12-31",
+    "url": "https://bostad.blocket.se/sv/home/1171445"
+  },
+  {
+    "location": "Bromma",
+    "address": "Tranebergsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 40,
+    "price": 13243,
+    "available": "2025-08-09",
+    "until": "2025-11-30",
+    "url": "https://bostad.blocket.se/sv/home/1171435"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Anders Reimers väg",
+    "property_type": "Lägenhet",
+    "size_kvm": 94,
+    "price": 34999,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/813646"
+  }
+]

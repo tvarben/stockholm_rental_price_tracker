@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import List, Optional
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError, Browser, Page
+import src.config
 
 # Configure logging
 logging.basicConfig(
@@ -86,6 +87,7 @@ class BlocketBostadScraper:
                     last_page = max(page_numbers)
                     logger.info(f"Found {len(page_numbers)
                                          } pages, last page: {last_page}")
+                    src.config.LAST_PAGE = last_page
                     return last_page
                 else:
                     logger.warning("No page numbers found")

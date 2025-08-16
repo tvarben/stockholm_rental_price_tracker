@@ -8,7 +8,7 @@ from src.scraper import BlocketBostadScraper
 import src.config
 import sys
 import os
-
+import src.parser
 # Add parent directory to path to find config.py
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -38,6 +38,9 @@ def main():
     except Exception as e:
         logger.error(f"Unexpected error in main: {e}")
         print(f"❌ Scraping failed with error: {e}")
+
+    print("Initiazing intermediary process by saving parsed data. ")
+    src.parser.parseAndSaveData()
 
 
 if __name__ == "__main__":

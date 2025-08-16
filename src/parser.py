@@ -1,6 +1,7 @@
-
 from bs4 import BeautifulSoup
 import re
+import src.config
+import json
 
 
 def parse_html(html_content):
@@ -68,7 +69,18 @@ def parse_html(html_content):
     return results
 
 
-with open('data/raw/blocket/page1.html', 'r') as f:
-    html_content = f.read()
-parsed_data = parse_html(html_content)
-print(parsed_data)
+def parseAndSaveData():
+    for page in range(1, src.config.LAST_PAGE+1):
+        raw_path = f"data/raw/blocket/page{page}.html"
+        with open(raw_path, 'r') as f:
+            html_content = f.read()
+        parsed_data = parse_html(html_content)
+
+        processed_path = f"data/processed/blocket/page{page}.json"
+        with open(processed_path, "w", encoding="utf-8") as f:
+            json.dump(parsed_data, f, ensure_ascii=False, indent=2)
+        print(f"Saved processed data for {page} -> {processed_path}")
+    return
+
+
+parseAndSaveData()
