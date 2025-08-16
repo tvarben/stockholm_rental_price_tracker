@@ -14,3 +14,5 @@ The project supports:
     Exploratory analysis to track price trends and availability over time.
 
     Visualization of trends using Python plotting libraries.
+
+It will also be available as a daemon using docker
