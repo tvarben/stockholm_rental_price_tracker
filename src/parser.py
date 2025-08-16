@@ -1,19 +1,4 @@
-#
-#
-# def parsePage():
-#     html_path = Path("data/raw/blocket/page1.html")
-#     html = html_path.read_text(encoding="utf-8")
-#     soup = BeautifulSoup(html, "html.parser")
-# # Example: find all property titles
-#     titles = soup.select('a[aria-label]')
-#     for title in titles:
-#         text = title.get_text(strip=True)
-#         url = title.get("href")  # Get the href attribute of the individual <a>
-#         print(text, url)
-#     return
-#
-#
-# parsePage()
+
 from bs4 import BeautifulSoup
 import re
 
@@ -21,6 +6,7 @@ import re
 def parse_html(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     results = []
+    base_url = "https://bostad.blocket.se"  # Base URL to construct full links
 
     # Find all listing containers
     listings = soup.select('a[aria-label]')
@@ -34,6 +20,10 @@ def parse_html(html_content):
 
         # Extract property type and location from aria-label
         property_type, _, location_str = aria_label.partition(' - ')
+
+        # Extract listing URL
+        relative_url = listing.get('href', '')
+        listing_url = f"{base_url}{relative_url}" if relative_url else ""
 
         # Split location into address and area
         if ', ' in location_str:
@@ -71,13 +61,13 @@ def parse_html(html_content):
             'size_kvm': size_kvm,
             'price': price,
             'available': available.strip(),
-            'until': until.strip()
+            'until': until.strip(),
+            'url': listing_url  # Added URL field
         })
 
     return results
 
 
-# Example usage
 with open('data/raw/blocket/page1.html', 'r') as f:
     html_content = f.read()
 parsed_data = parse_html(html_content)
