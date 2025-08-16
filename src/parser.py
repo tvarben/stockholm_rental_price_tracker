@@ -82,5 +82,3 @@ def parseAndSaveData():
         print(f"Saved processed data for {page} -> {processed_path}")
     return
 
-
-parseAndSaveData()
