@@ -1,5 +1,55 @@
 [
   {
+    "location": "Enskede",
+    "address": "Munksjövägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 40,
+    "price": 12751,
+    "available": "2025-08-15",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1008768"
+  },
+  {
+    "location": "Bandhagen",
+    "address": "Bjursätragatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 65,
+    "price": 13643,
+    "available": "2025-08-17",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1008691"
+  },
+  {
+    "location": "Bandhagen",
+    "address": "Pålsbodagränd",
+    "property_type": "Lägenhet",
+    "size_kvm": 76,
+    "price": 5247,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/951901"
+  },
+  {
+    "location": "Kista",
+    "address": "Köpenhamnsgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 15,
+    "price": 6297,
+    "available": "2025-08-17",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1005781"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Tulegatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 20,
+    "price": 12594,
+    "available": "2025-05-20",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/905697"
+  },
+  {
     "location": "Stockholm",
     "address": "Norrskogsvägen",
     "property_type": "Lägenhet",
@@ -150,16 +200,6 @@
     "url": "https://bostad.blocket.se/sv/home/964231"
   },
   {
-    "location": "Enskede",
-    "address": "Hemskogsvägen",
-    "property_type": "Lägenhet",
-    "size_kvm": 50,
-    "price": 13643,
-    "available": "2025-09-01",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/957302"
-  },
-  {
     "location": "Skärholmen",
     "address": "Båtholmsbacken",
     "property_type": "Lägenhet",
@@ -238,16 +278,6 @@
     "available": "2025-08-15",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/925944"
-  },
-  {
-    "location": "Spånga",
-    "address": "Tisslingeplan",
-    "property_type": "Lägenhet",
-    "size_kvm": 15,
-    "price": 5247,
-    "available": "2025-08-03",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/923402"
   },
   {
     "location": "Spånga",
@@ -375,7 +405,7 @@
     "property_type": "Lägenhet",
     "size_kvm": 18,
     "price": 6297,
-    "available": "2025-06-13",
+    "available": "2025-08-17",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/872819"
   },
@@ -568,35 +598,5 @@
     "available": "2025-05-20",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/756787"
-  },
-  {
-    "location": "Sverige",
-    "address": "Mosebacke Torg",
-    "property_type": "Lägenhet",
-    "size_kvm": 22,
-    "price": 9970,
-    "available": "2025-09-01",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/124869"
-  },
-  {
-    "location": "Enskede",
-    "address": "Maratonvägen",
-    "property_type": "Korridorsrum",
-    "size_kvm": 19,
-    "price": 6821,
-    "available": "2025-07-27",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/679837"
-  },
-  {
-    "location": "Enskede Gård Stockholm",
-    "address": "Palmfeltsvägen",
-    "property_type": "Lägenhet",
-    "size_kvm": 19,
-    "price": 7031,
-    "available": "2025-07-10",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/604341"
   }
 ]

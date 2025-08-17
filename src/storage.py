@@ -1,17 +1,17 @@
-
 import sqlite3
-from . import config
+import os
+import json
 
-# define connection and cursor
 
-connection = sqlite3.connect(config.DATABASE_NAME)
+def create_database(db_path):
+    """Create database and table if they don't exist"""
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
 
-cursor = connection.cursor()
-
-# create stores table
-
-command1 = """CREATE TABLE IF NOT EXISTS
-housing(id INTEGER PRIMARY KEY, 
+    # Create housing table
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS housing(
+        id INTEGER PRIMARY KEY,
         location TEXT,
         address TEXT,
         property_type TEXT,
@@ -19,16 +19,53 @@ housing(id INTEGER PRIMARY KEY,
         price INTEGER,
         available TEXT,
         until TEXT,
-        link TEXT
-        )"""
+        url TEXT UNIQUE  -- Ensure no duplicate listings
+    )
+    """)
+    connection.commit()
+    connection.close()
+    print(f"Database created/verified at {db_path}")
 
-# TESTING SQL QUERIES
-# cursor.execute(command1)
-# cursor.execute(
-#     "INSERT into housing VALUES (1, 'STOCKHOLM', 'MASKROSSTIGEN 3', 'HOUSE', 300, 10000000, 'NOW', '2027')")
-# cursor.execute("SELECT * FROM housing")
-# results1 = cursor.fetchall()
-# print(results1)
-# cursor.execute("SELECT property_type FROM housing", ())
-# results = cursor.fetchall()
-# print(results)
+
+def load_json_to_db(db_path, processed_data_path):
+    """Load processed JSON data into SQLite database"""
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+
+    # Prepare insert query
+    insert_query = """
+    INSERT OR IGNORE INTO housing (
+        location, address, property_type, size_kvm,
+        price, available, until, url
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    """
+
+    # Get all JSON files in processed data directory
+    json_files = [
+        f for f in os.listdir(processed_data_path)
+        if f.endswith('.json')
+    ]
+
+    for json_file in json_files:
+        file_path = os.path.join(processed_data_path, json_file)
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                listings = json.load(f)
+                for listing in listings:
+                    cursor.execute(insert_query, (
+                        listing.get("location"),
+                        listing.get("address"),
+                        listing.get("property_type"),
+                        listing.get("size_kvm"),
+                        listing.get("price"),
+                        listing.get("available"),
+                        listing.get("until"),
+                        listing.get("url")
+                    ))
+            print(f"Loaded data from {json_file}")
+        except Exception as e:
+            print(f"Error processing {json_file}: {str(e)}")
+
+    connection.commit()
+    connection.close()
+    print("Data loading completed")

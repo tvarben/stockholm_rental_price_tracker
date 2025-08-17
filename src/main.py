@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Main entry point for Blocket Bostad scraper.
+Main entry point for Blocket Bostad pipeline.
 """
-
+import sqlite3
 import logging
 from src.scraper import BlocketBostadScraper
 import src.config
 import sys
 import os
 import src.parser
+import src.storage
 # Add parent directory to path to find config.py
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -40,7 +40,21 @@ def main():
         print(f"❌ Scraping failed with error: {e}")
 
     print("Initiazing intermediary process by saving parsed data. ")
-    src.parser.parseAndSaveData()
+    src.parser.parse_and_save_data()
+
+    # we create database with create_database(src.config.DATABASE_NAME)
+    print("creating database if not already exist")
+    src.storage.create_database(src.config.DATABASE_NAME)
+    # load json into database with create_database(src.config.DATABASE_NAME)
+    src.storage.load_json_to_db(
+        src.config.DATABASE_NAME, src.config.PROCESSED_DATA_PATH)
+
+    connection = sqlite3.connect(src.config.DATABASE_NAME)
+    cursor = connection.cursor()
+    cursor.execute("SELECT COUNT(*) FROM housing")
+    count = cursor.fetchone()[0]
+    print(f"Total records in database: {count}")
+    connection.close()
 
 
 if __name__ == "__main__":

@@ -1,2 +1,1 @@
-1. Data has been scraped and saved in raw/blocket/
-2. set up sqlite database
+move processed data to SQLite database

@@ -3,4 +3,5 @@ blocketBostadURL = "https://bostad.blocket.se/sv/find-home?searchAreas=Stockholm
 blocketBostadURL2 = "https://bostad.blocket.se/sv/find-home?page=1&searchAreas=Stockholm~~se"
 
 DATABASE_NAME = "data/rental_data.db"
-LAST_PAGE = 0
+PROCESSED_DATA_PATH = "data/processed/blocket/"
+LAST_PAGE = 26

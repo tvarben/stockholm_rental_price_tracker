@@ -1,5 +1,35 @@
 [
   {
+    "location": "Sverige",
+    "address": "Mosebacke Torg",
+    "property_type": "Lägenhet",
+    "size_kvm": 22,
+    "price": 9970,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/124869"
+  },
+  {
+    "location": "Enskede",
+    "address": "Maratonvägen",
+    "property_type": "Korridorsrum",
+    "size_kvm": 19,
+    "price": 6821,
+    "available": "2025-07-27",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/679837"
+  },
+  {
+    "location": "Enskede Gård Stockholm",
+    "address": "Palmfeltsvägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 19,
+    "price": 7031,
+    "available": "2025-07-10",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/604341"
+  },
+  {
     "location": "Enskede Gård",
     "address": "Palmfeltsvägen",
     "property_type": "Lägenhet",
@@ -115,7 +145,7 @@
     "property_type": "Lägenhet",
     "size_kvm": 13,
     "price": 6821,
-    "available": "2025-07-28",
+    "available": "2025-08-17",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/71736"
   }

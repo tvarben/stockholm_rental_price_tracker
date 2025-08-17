@@ -69,7 +69,7 @@ def parse_html(html_content):
     return results
 
 
-def parseAndSaveData():
+def parse_and_save_data():
     for page in range(1, src.config.LAST_PAGE+1):
         raw_path = f"data/raw/blocket/page{page}.html"
         with open(raw_path, 'r') as f:
@@ -82,3 +82,5 @@ def parseAndSaveData():
         print(f"Saved processed data for {page} -> {processed_path}")
     return
 
+
+# parse_and_save_data()
