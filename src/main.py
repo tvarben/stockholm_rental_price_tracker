@@ -10,6 +10,7 @@ import sys
 import os
 import src.parser
 import src.storage
+import src.analysis
 # Add parent directory to path to find config.py
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -55,6 +56,7 @@ def main():
     count = cursor.fetchone()[0]
     print(f"Total records in database: {count}")
     connection.close()
+    src.analysis.run_test_queries(src.config.DATABASE_NAME)
 
 
 if __name__ == "__main__":

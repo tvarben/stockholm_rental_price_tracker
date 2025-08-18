@@ -110,16 +110,6 @@
     "url": "https://bostad.blocket.se/sv/home/1095213"
   },
   {
-    "location": "Kista",
-    "address": "Stavangergatan",
-    "property_type": "Lägenhet",
-    "size_kvm": 52,
-    "price": 11654,
-    "available": "2025-08-04",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/1095020"
-  },
-  {
     "location": "Farsta Hökarängen",
     "address": "Russinvägen",
     "property_type": "Lägenhet",
@@ -345,7 +335,7 @@
     "property_type": "Lägenhet",
     "size_kvm": 48,
     "price": 10026,
-    "available": "2025-08-15",
+    "available": "2025-08-18",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1084741"
   },
@@ -355,7 +345,7 @@
     "property_type": "Lägenhet",
     "size_kvm": 41,
     "price": 9229,
-    "available": "2025-08-15",
+    "available": "2025-08-18",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1084745"
   },
@@ -598,5 +588,15 @@
     "available": "2025-08-05",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1072381"
+  },
+  {
+    "location": "Stockholm",
+    "address": "Timmermansgatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 35,
+    "price": 16687,
+    "available": "2025-10-04",
+    "until": "2025-11-29",
+    "url": "https://bostad.blocket.se/sv/home/1072114"
   }
 ]

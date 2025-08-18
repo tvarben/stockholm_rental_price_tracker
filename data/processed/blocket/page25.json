@@ -1,25 +1,5 @@
 [
   {
-    "location": "Enskede",
-    "address": "Munksjövägen",
-    "property_type": "Lägenhet",
-    "size_kvm": 40,
-    "price": 12751,
-    "available": "2025-08-15",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/1008768"
-  },
-  {
-    "location": "Bandhagen",
-    "address": "Bjursätragatan",
-    "property_type": "Lägenhet",
-    "size_kvm": 65,
-    "price": 13643,
-    "available": "2025-08-17",
-    "until": "Tillsvidare",
-    "url": "https://bostad.blocket.se/sv/home/1008691"
-  },
-  {
     "location": "Bandhagen",
     "address": "Pålsbodagränd",
     "property_type": "Lägenhet",
@@ -598,5 +578,25 @@
     "available": "2025-05-20",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/756787"
+  },
+  {
+    "location": "Sverige",
+    "address": "Mosebacke Torg",
+    "property_type": "Lägenhet",
+    "size_kvm": 22,
+    "price": 9970,
+    "available": "2025-09-01",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/124869"
+  },
+  {
+    "location": "Enskede",
+    "address": "Maratonvägen",
+    "property_type": "Korridorsrum",
+    "size_kvm": 19,
+    "price": 6821,
+    "available": "2025-07-27",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/679837"
   }
 ]

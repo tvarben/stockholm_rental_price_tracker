@@ -1,15 +1,5 @@
 [
   {
-    "location": "Stockholm",
-    "address": "Timmermansgatan",
-    "property_type": "Lägenhet",
-    "size_kvm": 35,
-    "price": 16687,
-    "available": "2025-10-04",
-    "until": "2025-11-29",
-    "url": "https://bostad.blocket.se/sv/home/1072114"
-  },
-  {
     "location": "Sköndal",
     "address": "Gebersvägen",
     "property_type": "Lägenhet",
@@ -35,7 +25,7 @@
     "property_type": "Villa",
     "size_kvm": 10,
     "price": 5827,
-    "available": "2025-07-28",
+    "available": "2025-08-18",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1062756"
   },
@@ -55,7 +45,7 @@
     "property_type": "Lägenhet",
     "size_kvm": 28,
     "price": 7745,
-    "available": "2025-08-15",
+    "available": "2025-08-18",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1069761"
   },
@@ -95,7 +85,7 @@
     "property_type": "Lägenhet",
     "size_kvm": 22,
     "price": 5247,
-    "available": "2025-08-10",
+    "available": "2025-08-18",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1066056"
   },
@@ -268,16 +258,6 @@
     "available": "2025-10-01",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1051545"
-  },
-  {
-    "location": "Hägersten",
-    "address": "Rubinvägen",
-    "property_type": "Lägenhet",
-    "size_kvm": 76,
-    "price": 17736,
-    "available": "2025-08-04",
-    "until": "2026-04-01",
-    "url": "https://bostad.blocket.se/sv/home/1051185"
   },
   {
     "location": "Vällingby",
@@ -598,5 +578,25 @@
     "available": "2026-02-01",
     "until": "Tillsvidare",
     "url": "https://bostad.blocket.se/sv/home/1009173"
+  },
+  {
+    "location": "Enskede",
+    "address": "Munksjövägen",
+    "property_type": "Lägenhet",
+    "size_kvm": 40,
+    "price": 12751,
+    "available": "2025-08-15",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1008768"
+  },
+  {
+    "location": "Bandhagen",
+    "address": "Bjursätragatan",
+    "property_type": "Lägenhet",
+    "size_kvm": 65,
+    "price": 13643,
+    "available": "2025-08-17",
+    "until": "Tillsvidare",
+    "url": "https://bostad.blocket.se/sv/home/1008691"
   }
 ]
