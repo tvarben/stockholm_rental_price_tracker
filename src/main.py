@@ -57,6 +57,7 @@ def main():
     print(f"Total records in database: {count}")
     connection.close()
     src.analysis.run_test_queries(src.config.DATABASE_NAME)
+    print("run jupyter notebook for visuliazation and select results.ipynb to see graphs")
 
 
 if __name__ == "__main__":

@@ -2,3 +2,7 @@ requests
 beautifulsoup4
 matplotlib
 playwright
+pandas
+jupyter
+seaborn
+numpy
