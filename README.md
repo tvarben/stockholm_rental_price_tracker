@@ -15,4 +15,4 @@ The project supports:
 
     Visualization of trends using Python plotting libraries.
 
-It will also be available as a dockerfile on dockerhub/tvarben
+It will also be available as a dockerfile on tvarben/blocket-bostad-etl-pipeline
