@@ -37,6 +37,12 @@ Ensures the data is accessible for reporting, dashboards, or analytics applicati
 
 Blocket bostad ETL pipeline aims to get all rental listings from Blocket bostad Stockholm and do basic analysis on them such as diagrams, normal distribution and scatterplots
 
+![plot1](https://github.com/user-attachments/assets/a9a787b9-aae6-4796-b675-22bb137c805a)
+![plot2](https://github.com/user-attachments/assets/2bdb1548-dc85-4dcb-b7b3-44808615f988)
+![plot3](https://github.com/user-attachments/assets/5bb61363-40cc-4572-891a-9e58c5c4c3ae)
+![plot4](https://github.com/user-attachments/assets/17c87478-b100-4112-9d7a-b3cf970ed0c3)
+
+
 
 To run this repo on linux: 
 
