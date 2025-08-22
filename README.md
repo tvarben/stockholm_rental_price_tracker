@@ -53,12 +53,13 @@ To run this repo on linux:
     cd ..
     python -m src.main
     
-Wait for scraping to complete
-    
+Wait for scraping to complete...
 
 The ETL process is complete, now it's time to visualize all listings from our database.
 Open results.ipynb: 
+
     jupyter notebook
+
 Click on Run and select Run All Cells.
 Visualization of the rental listings should be visible.
     
