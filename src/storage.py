@@ -8,6 +8,8 @@ def create_database(db_path):
     connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
 
+    cursor.execute("DROP TABLE IF EXISTS housing")
+
     # Create housing table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS housing(
