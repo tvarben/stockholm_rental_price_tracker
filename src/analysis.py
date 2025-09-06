@@ -2,9 +2,6 @@ import sqlite3
 import src.config
 import textwrap
 
-# ... [Other functions remain unchanged] ...
-
-
 def count_listings(conn):
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM housing")
