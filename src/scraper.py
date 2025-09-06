@@ -27,11 +27,6 @@ class BlocketBostadScraper:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-        # Selectors - make them configurable
-        # self.pagination_selector = 'a.qds-nyr6q5'
-        # # Property listing links inside grid
-        # self.content_selector = 'div.qds-6d0zjo.e6zz57q1 a[aria-label]'
-        # REVERT IF NOT WORKING
 
         self.pagination_selector = 'a[class*="qds-nyr6q"]'
         self.content_selector = 'div[class*="qds-6d0zjo"] a[aria-label]'
