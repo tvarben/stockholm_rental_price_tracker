@@ -39,7 +39,6 @@ class BlocketBostadScraper:
     def _get_browser_page(self, browser: Browser) -> Page:
         """Create and configure a new browser page."""
         page = browser.new_page()
-        # Add any page configuration here (user agent, viewport, etc.)
         return page
 
     def _wait_with_retry(self, page: Page, selector: str, max_retries: int = 2) -> bool:
@@ -136,7 +135,6 @@ class BlocketBostadScraper:
                 logger.warning(f"Property listings not found for page {
                                page_number}, continuing anyway...")
             else:
-                # Count how many listings loaded
                 listings_count = page.locator(self.content_selector).count()
                 logger.info(
                     f"Found {listings_count} property listings on page {page_number}")
@@ -201,16 +199,12 @@ class BlocketBostadScraper:
         """Run the complete scraping process."""
         logger.info("Starting Blocket Bostad scraper...")
 
-        # Get pagination info
         last_page = self.get_last_page_number()
         if not last_page:
             logger.error("Could not determine pagination, aborting...")
             return {'error': 'Pagination failed'}
 
-        # Generate URLs
         urls = self.generate_page_urls(last_page)
-
-        # Scrape all pages
         results = self.scrape_all_pages(urls)
 
         logger.info("Scraping process completed!")
