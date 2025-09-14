@@ -7,15 +7,11 @@ def count_listings(conn):
     cursor.execute("SELECT COUNT(*) FROM housing")
     return cursor.fetchone()[0]
 
-# 2. Show first 5 listings
-
 
 def show_sample_listings(conn, limit=5):
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM housing LIMIT ?", (limit,))
     return cursor.fetchall()
-
-# 3. Check for NULL values
 
 
 def check_null_values(conn):
@@ -61,7 +57,7 @@ def avg_price_by_location(conn):
 
     results = cursor.fetchall()
 
-    # Print formatted results
+    # Print  results
     print("\n{:<25} {:<15} {:<10}".format("Location", "Avg Price", "Listings"))
     print("-"*50)
     for row in results:
@@ -85,7 +81,7 @@ def price_by_property_type_formatted(conn):
     """)
     results = cursor.fetchall()
 
-    # Print formatted table
+    # Print table
     print("\n{:<15} {:<15} {:<15} {:<15} {:<10}".format(
         "Property Type", "Min Price", "Avg Price", "Max Price", "Listings"
     ))
@@ -118,14 +114,14 @@ def most_expensive_listings_formatted(conn, limit=5):
     ))
     for i, row in enumerate(results, 1):
         location, address, size, price, url = row
-        # Print full URL directly
+        # Print full URL 
         print("-" * 115)
         print("{:<25} {:<25} {:<10} {:<15} {}".format(
             textwrap.shorten(location, width=24, placeholder='...'),
             textwrap.shorten(address, width=24, placeholder='...'),
             size,
             f"SEK {price:,}",
-            url  # Full URL here
+            url 
         ))
 
     return results
@@ -148,7 +144,6 @@ def best_value_listings_formatted(conn, limit=5):
     ))
     for i, row in enumerate(results, 1):
         location, address, size, price, price_per_sqm, url = row
-        # Print full URL directly
         print("-" * 130)
         print("{:<25} {:<25} {:<10} {:<15} {:<15.2f} {}".format(
             textwrap.shorten(location, width=24, placeholder='...'),
@@ -156,7 +151,7 @@ def best_value_listings_formatted(conn, limit=5):
             size,
             f"SEK {price:,}",
             price_per_sqm,
-            url  # Full URL here
+            url  
         ))
 
     return results
