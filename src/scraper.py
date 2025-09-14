@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError, Browser, Page
 import src.config
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -23,15 +22,13 @@ class BlocketBostadScraper:
     """A web scraper for Blocket Bostad property listings."""
 
     def __init__(self, base_url: str, output_dir: str = "data/raw/blocket"):
-        self.base_url = base_url  # This should be blocketBostadURL2
+        self.base_url = base_url  
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
 
         self.pagination_selector = 'a[class*="qds-nyr6q"]'
         self.content_selector = 'div[class*="qds-6d0zjo"] a[aria-label]'
-
-        # Scraping settings
         self.timeout = 20000
         self.min_delay = 1
         self.max_delay = 3
