@@ -10,7 +10,6 @@ def create_database(db_path):
 
     cursor.execute("DROP TABLE IF EXISTS housing")
 
-    # Create housing table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS housing(
         id INTEGER PRIMARY KEY,
@@ -34,7 +33,6 @@ def load_json_to_db(db_path, processed_data_path):
     connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
 
-    # Prepare insert query
     insert_query = """
     INSERT OR IGNORE INTO housing (
         location, address, property_type, size_kvm,
@@ -42,7 +40,6 @@ def load_json_to_db(db_path, processed_data_path):
     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     """
 
-    # Get all JSON files in processed data directory
     json_files = [
         f for f in os.listdir(processed_data_path)
         if f.endswith('.json')
