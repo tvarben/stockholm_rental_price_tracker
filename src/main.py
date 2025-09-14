@@ -11,7 +11,7 @@ import os
 import src.parser
 import src.storage
 import src.analysis
-# Add parent directory to path to find config.py
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Configure logging
@@ -42,11 +42,8 @@ def main():
 
     print("Initiazing intermediary process by saving parsed data. ")
     src.parser.parse_and_save_data()
-
-    # we create database with create_database(src.config.DATABASE_NAME)
     print("creating database if not already exist")
     src.storage.create_database(src.config.DATABASE_NAME)
-    # load json into database with create_database(src.config.DATABASE_NAME)
     src.storage.load_json_to_db(
         src.config.DATABASE_NAME, src.config.PROCESSED_DATA_PATH)
 
