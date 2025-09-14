@@ -8,8 +8,6 @@ def parse_html(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     results = []
     base_url = "https://bostad.blocket.se"  # Base URL to construct full links
-
-    # Find all listing containers
     listings = soup.select('a[aria-label]')
 
     for listing in listings:
@@ -33,13 +31,13 @@ def parse_html(html_content):
             address = location_str
             location = location_str  # Fallback if no comma
 
-        # Extract size
+        
         size_tag = listing.select_one('div.ea5jgjt0 p:last-child')
         size_text = size_tag.get_text(strip=True) if size_tag else ''
         size_match = re.search(r'(\d+)\s*m²?', size_text, re.IGNORECASE)
         size_kvm = int(size_match.group(1)) if size_match else None
 
-        # Extract price
+        
         price_tag = listing.select_one('p.eq1ubw50')
         price_text = price_tag.get_text(strip=True) if price_tag else ''
         price_digits = ''.join(filter(str.isdigit, price_text))
@@ -63,7 +61,7 @@ def parse_html(html_content):
             'price': price,
             'available': available.strip(),
             'until': until.strip(),
-            'url': listing_url  # Added URL field
+            'url': listing_url  
         })
 
     return results
@@ -83,4 +81,4 @@ def parse_and_save_data():
     return
 
 
-# parse_and_save_data()
+
